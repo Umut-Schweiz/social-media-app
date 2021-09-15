@@ -28,7 +28,7 @@ function MenuBar()  {
             active={activeItem === 'login'}
             onClick={handleItemClick}
             as={Link}
-            to='login'
+            to='/login'
           />
             <Menu.Item
               name='register'
